@@ -1,0 +1,10 @@
+checksum "control.elf" 0xe7687da5;
+
+// Low-level flow facts
+multicall "main" + 0x50 to "one", "zero";	// 0x000004ac (control.c:32) indirect call in "main"
+
+noreturn "_exit";
+
+
+
+

@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ -rdynamic -Wl,--dependency-file=CMakeFiles/labwork.dir/link.d CMakeFiles/labwork.dir/labwork.cpp.o -o labwork  -L/nfs/otawa/otawa/lib -lotawa -lelm -lgel -Wl,-rpath -Wl,/nfs/otawa/otawa/lib
